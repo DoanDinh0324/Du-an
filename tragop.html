@@ -1,0 +1,1755 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./libs/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/dogiadung.css">
+    <link rel="stylesheet" href="./fonts/Roboto-Bold.ttf">
+    <link rel="stylesheet" href="./fonts/Roboto-Regular.ttf">
+    <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./libs/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./js/slick-theme.min.css.map">
+
+</head>
+
+<body>
+    <header>
+        <div class="header-top clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs hotline">
+                        <span><i class="fa-solid fa-envelope"></i> Email : Dinhdoan0324@gmail.com</span>
+                        <span><i class="fa fa-phone"></i> Phone : 0917309161</span>
+                    </div>
+                    <div class="col-lg-6 col-md-6 hidden-sm hidden-xs">
+                        <div class="fastmenu">
+                            <ul>
+                                <li><a href=""><i class="fa fa-user"></i> Tài Khoản</a></li>
+                                <li><a href=""><i class="fa-solid fa-heart"></i> Yêu thích</a></li>
+                                <li><a href=""><i class="fa-brands fa-cc-paypal"></i> Thanh toán</a></li>
+                                <li><a href="/loginregister.html"><i class="fa-solid fa-address-card"></i> Đăng kí</a>
+                                </li>
+                                <li><a href="/login.html"><i class="fa-solid fa-right-to-bracket"></i> Đăng nhập</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-mid clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 logo">
+                        <a href="/index.html">
+                            <img src="/images/logo/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="col-lg-4 col-md-4">
+                        <div class="box-search">
+                            <form>
+                                <input type="text" placeholder="Tìm kiếm sản phẩm">
+                                <button type="submit" class="btn-search"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 paddingright0">
+                        <div class="box-cart">
+                            <div>
+                                <p>Giỏ hàng</p>
+                                <p><small>(0) sản phẩm</small></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="wrapper">
+        <div class="container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4col-xs-12 paddingright0 title-life">
+                        <div class="title-mm">
+                            <ul class="click1">
+                                <li>
+                                    <h4><i class="fa fa-home pull-left"> </i><span>Danh mục sản phẩm</span> <i
+                                            class="fa fa-caret-down pull-right icon-down"></i></h4>
+                                </li>
+                            </ul>
+                            <div class="box-menu-left" id="myDropdown">
+                                <ul id="myDropdown1" class="box-menu-left1">
+                                    <li><a href="#"><span> <img src="/images/logo/icon1.png" alt=""></span> Đồ gia dụng
+                                            <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="/dien.html"><span> <img src="/images/logo/icon2.png" alt=""></span>
+                                            Điện gia dụng <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="/mayloc.html"><span> <img src="/images/logo/icon3.png" alt=""></span>
+                                            Máy lọc nước
+                                            <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="#"><span> <img src="/images/logo/icon4.png" alt=""></span> Thiết bị nhà
+                                            bếp <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="#"><span> <img src="/images/logo/icon5.png" alt=""></span> thiết bị
+                                            công nghiệp <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="#"><span> <img src="/images/logo/icon6.png" alt=""></span> điện dân
+                                            dụng <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="#"><span> <img src="/images/logo/icon7.png" alt=""></span> đồ dùng cá
+                                            nhân <i class="fa-solid fa-angle-right pull-right"></i></a></li>
+                                    <li><a href="#"><span> <img src="/images/logo/icon8.png" alt=""></span> sản phẩm
+                                            khác<i class="fa-solid fa-angle-right pull-right"></i></a></li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-12 paddingleft0">
+                        <div class="block-menu">
+                            <ul>
+                                <li class="active" style="background: #dfdfdf;"><a href="">Hot Deals <img
+                                            src="/images/logo/hot.png" alt=""></a></li>
+                                <li class="active"><a href="">Khuyến mãi <img src="/images/logo/hot.png" alt=""></a>
+                                </li>
+                                <li><a href="">Bán trả góp</a></li>
+                                <li><a href="">Tuyển dụng</a></li>
+                                <li><a href="">Dịch vụ</a></li>
+                                <li><a href="">Tin tức</a></li>
+                            </ul>
+                        </div>
+                        <div class="row margintop10">
+                            <div class="col-md-8 paddingright5 ">
+                                <div class="slider">
+                                    <div id="slider-qc">
+                                        <a href="" class="quangcaoslider">
+                                            <img src="/images/slider/silder1.png" alt="" style="width: 570px;">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="box-qc">
+                                    <a href="">
+                                        <img src="/images/slider/slider2.png" alt="Quangcao">
+                                    </a>
+                                </div>
+                                <div class="box-qc">
+                                    <a href="">
+                                        <img src="/images/slider/slider3.png" alt="Quangcao">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 hidden-xs">
+                        <a href="" class="imgadv">
+                            <img src="/images/qc/qc1.png" alt=""
+                                style="width: 100%; margin-left: -17px; padding-top: 15px; height: 170px;">
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 hidden-xs paddingleft5">
+                        <a href="" class="imgadv">
+                            <img src="/images/qc/pc2.png" alt=""
+                                style="width: 100%; margin-left: -25px; padding-top: 15px; height: 170px;">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="margintop10"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4 hidden-xs" style="margin-left: -15px;">
+                        <div class="item-left">
+                            <div class="col-left" style="    margin-right: -15px;">
+                                <div class="title-left">
+                                    Sản phẩm bán chạy
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/sp/chao1.png" alt=""
+                                                    style=" padding-left: 7px;   padding-bottom: 80px;">
+                                            </a>
+                                            <div class="content-pro" style="    display: inline-block;">
+                                                <h3 style="padding: 14px 10px;">
+                                                    <a href="">Đèn thả đơn triện vuông</a>
+                                                    <p style="color: #ffbd01;">
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                    </p>
+                                                    <div class="box-price">
+                                                        <span style="font-size: 15px; color: #666;"> Giá : <strong
+                                                                class="price-news"
+                                                                style="    color: red; font-weight: 300;">188.000đ</strong>
+                                                        </span>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/sp/sp2.png" alt=""
+                                                    style=" padding-left: 7px;   padding-bottom: 80px;">
+                                            </a>
+                                            <div class="content-pro" style="    display: inline-block;">
+                                                <h3 style="padding: 14px 10px;">
+                                                    <a href="">Đèn thả đơn triện vuông</a>
+                                                    <p style="color: #ffbd01;">
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                    </p>
+                                                    <div class="box-price">
+                                                        <span style="    font-size: 15px; color: #666;"> Giá : <strong
+                                                                class="price-news"
+                                                                style="    color: red; font-weight: 300;">188.000đ</strong></span>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/sp/sp3.png" alt=""
+                                                    style=" padding-left: 7px;   padding-bottom: 80px;">
+                                            </a>
+                                            <div class="content-pro" style="    display: inline-block;">
+                                                <h3 style="padding: 14px 10px;">
+                                                    <a href="">Đèn thả đơn triện vuông</a>
+                                                    <p style="color: #ffbd01;">
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                    </p>
+                                                    <div class="box-price">
+                                                        <span style="    font-size: 15px; color: #666;"> Giá : <strong
+                                                                class="price-news"
+                                                                style="    color: red; font-weight: 300;">188.000đ</strong></span>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/sp/sp4.png" alt=""
+                                                    style=" padding-left: 7px;   padding-bottom: 80px;">
+                                            </a>
+                                            <div class="content-pro" style="    display: inline-block;">
+                                                <h3 style="padding: 14px 10px;">
+                                                    <a href="">Đèn thả đơn triện vuông</a>
+                                                    <p style="color: #ffbd01;">
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                        <i class="fa-solid fa-star" style="font-size: 18px;"></i>
+                                                    </p>
+                                                    <div class="box-price">
+                                                        <span style="    font-size: 15px; color: #666;"> Giá : <strong
+                                                                class="price-news"
+                                                                style="    color: red; font-weight: 300;">188.000đ</strong></span>
+                                                    </div>
+                                                </h3>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="0" style="height: 20px;"></div>
+                        <div class="item-left">
+                            <div class="col-left" style="margin-right: -15px;">
+                                <div class="title-left">
+                                    Thương hiệu sản phẩm
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th1.png" alt="" style="     padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th2.png" alt="" style="    padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th3.png" alt="" style=" padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th4.png" alt="" style=" padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th5.png" alt="" style=" padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th6.png" alt="" style=" padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th7.png" alt="" style=" padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th8.png" alt="" style="padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="0" style="height: 20px;"></div>
+                        <div class="item-left">
+                            <div class="col-left" style="margin-right: -15px;">
+                                <div class="title-left">
+                                    Thông tin thị trường
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th1.png" alt="" style="     padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th2.png" alt="" style="    padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th3.png" alt="" style=" padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th4.png" alt="" style=" padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th5.png" alt="" style=" padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th6.png" alt="" style=" padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th7.png" alt="" style=" padding-left: 15px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-left-content">
+                                    <ul>
+                                        <li style="height: 130px;">
+                                            <a href="" class="img-prduct">
+                                                <img src="/images/logo/th8.png" alt="" style="padding-left: 50px;
+                                                padding-top: 30px;
+                                                padding-bottom: 80px;">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9 col-sm-8 col-xs-12">
+                        <div class="box-product">
+                            <div class="title-pro-right">
+                                <span>Sản phẩm nổi bật</span>
+                            </div>
+                            <div class="box-content-product">
+                                <div class="owl-carousel owl-theme" id="product_feature">
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/09/hsh12tmu-3.jpg"
+                                                alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp5.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp6.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp7.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp7.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp7.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp7.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                    <div class="item-product">
+                                        <div class="actions">
+                                            <a href="">
+                                                <i class="fa-solid fa-basket-shopping"></i>
+                                                <span>Thêm vào giỏ</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-heart"></i>
+                                                <span>Yêu thích</span>
+                                            </a>
+                                            <a href="">
+                                                <i class="fa-sharp fa-solid fa-code-compare"></i>
+                                                <span>So sánh</span>
+                                            </a>
+                                        </div>
+                                        <a href="" class="img-product">
+                                            <img src="/images/sp/sp7.png" alt="sanpham1">
+                                        </a>
+                                        <h3>
+                                            <a href="">Ấm Siêu tốc </a>
+                                            <div class="start text-center">
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star" style="color: #ffbd01;"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                                <i class="fa-sharp fa-solid fa-star"></i>
+                                            </div>
+                                            <div class="box-price">
+                                                Giá :<span class="price-news">555.000đ (-20%)</span>
+                                            </div>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="0" style="height: 20px;"></div>
+                        <div class="box-product">
+                            <div class="title-pro-right">
+                                <span>Sản phẩm nổi bật</span>
+                            </div>
+                            <div id="a5215ce86234429ab34a98964433c251"
+                                class="trend-product-catalog trend-category-page cat-382">
+                                <div class="cat-product-highlight">
+                                    <ul class="product-highlight-wrap" sid="151">
+                                        <div class="new-product">
+                                            <div class="new-product">
+                                                <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7045"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="74910" data-soldcount="461"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <div class="prod-hl-discount"><span>-15%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/hop-com-dien-2-tang-mocato-m601-p74910"
+                                                                title="Chi tiết Hộp cơm điện 2 tầng Mocato M601"
+                                                                name="p74910">
+                                                                <img alt="Nồi chiên không dầu điện tử Sharp KF-AF70EV-ST (7 lít)"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/01/20/noi-chien-khong-dau-sharp-kf-af70ev-st-300.jpg"
+                                                                    srcset="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/01/20/noi-chien-khong-dau-sharp-kf-af70ev-st-300.jpg, https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2022/01/20/noi-chien-khong-dau-sharp-kf-af70ev-st-300.jpg 1.5x, https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2022/01/20/noi-chien-khong-dau-sharp-kf-af70ev-st-300.jpg 2x"
+                                                                    width="200" height="200"
+                                                                    class="thumb-list is-thumb">
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Nồi chiên không dầu điện tử Sharp KF-AF70EV-ST (7 lít)"
+                                                                href="/noi-chien-khong-dau-dien-tu-sharp-kf-af70ev-st-7-lit-p82073">
+                                                                <h3>Nồi chiên không dầu điện tử Sharp KF-AF70EV-ST (7
+                                                                    lít)</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="countdown-product end-fs">
+                                                            <div class="cdown-pro-left">
+                                                                <div class="fs-price">
+                                                                    <span class="fs-price-main">549.000đ</span>
+                                                                    <div class="sale-fs"><span
+                                                                            class="percent-fs">-15%</span><span
+                                                                            class="old-price-fs">645.000đ</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cdown-pro-right">
+                                                                <div class="flashsale-box">
+                                                                    <div class="time-box-left"><span
+                                                                            class="timeleft">Kết thúc
+                                                                            sau</span></div>
+                                                                    <div class="time-flash running" data-bqty="33"
+                                                                        data-rqty="33" data-uid="74910"
+                                                                        data-starttime="2023-03-23T17:00:00.0000000Z"
+                                                                        data-checktime="2023-03-29T08:33:58.4272462Z"
+                                                                        data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                        data-flashprice="549000">
+                                                                        <div class="time-box-first"><span
+                                                                                class="ngay days">2</span> ngày</div>
+                                                                    </div>
+                                                                    <div class="time-box-left">
+                                                                        <span class="seconds">Còn <span
+                                                                                class="among-buy">33</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,5 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-05"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(31)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">549.000 đ</span><span
+                                                                class="product-price-old">645.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="78773" data-soldcount="166"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <div class="tragop-ox">Trả góp</div>
+                                                        <div class="prod-hl-discount"><span>-13%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                                title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                name="p78773">
+                                                                <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                    srcset="
+                                                                        https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                        https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                        https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                    " width="200" height="200"
+                                                                    class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                                <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="countdown-product end-fs">
+                                                            <div class="cdown-pro-left">
+                                                                <div class="fs-price">
+                                                                    <span class="fs-price-main">4.090.000đ</span>
+                                                                    <div class="sale-fs"><span
+                                                                            class="percent-fs">-13%</span><span
+                                                                            class="old-price-fs">4.690.000đ</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cdown-pro-right">
+                                                                <div class="flashsale-box">
+                                                                    <div class="time-box-left"><span
+                                                                            class="timeleft">Kết thúc sau</span></div>
+                                                                    <div class="time-flash running" data-bqty="29"
+                                                                        data-rqty="29" data-uid="78773"
+                                                                        data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                        data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                        data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                        data-flashprice="4090000">
+                                                                        <div class="time-box-first"><span
+                                                                                class="ngay days">2</span> ngày</div>
+                                                                    </div>
+                                                                    <div class="time-box-left">
+                                                                        <span class="seconds">Còn <span
+                                                                                class="among-buy">29</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,6 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-06"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(17)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">4.090.000 đ</span><span
+                                                                class="product-price-old">4.690.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-highlight-item prod-item lazy-prod-item _list_ico_9370"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="60205" data-soldcount="869"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <span class="fast-view type-promo prod-hl-gift active"><i
+                                                                class="icon-gift"></i></span>
+                                                        <div class="prod-hl-discount"><span>-16%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/cay-nuoc-nong-lanh-fujie-wd1105e-p60205"
+                                                                title="Chi tiết Cây nước nóng lạnh FujiE WD1105E"
+                                                                name="p60205">
+                                                                <img alt="Cây nước nóng lạnh FujiE WD1105E"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg"
+                                                                    srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Cây nước nóng lạnh FujiE WD1105E"
+                                                                href="/cay-nuoc-nong-lanh-fujie-wd1105e-p60205">
+                                                                <h3>Cây nước nóng lạnh FujiE WD1105E</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,3 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-03"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(12)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">1.350.000 đ</span><span
+                                                                class="product-price-old">1.600.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-highlight-item prod-item lazy-prod-item"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="60083" data-soldcount="264"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <div class="prod-hl-discount"><span>-17%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/quat-dung-senko-dcn1806-5-canh-65w-p60083"
+                                                                title="Chi tiết Quạt đứng Senko DCN1806 (5 cánh, 65W)"
+                                                                name="p60083">
+                                                                <img alt="Quạt đứng Senko DCN1806 (5 cánh, 65W)"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg"
+                                                                    srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Quạt đứng Senko DCN1806 (5 cánh, 65W)"
+                                                                href="/quat-dung-senko-dcn1806-5-canh-65w-p60083">
+                                                                <h3>Quạt đứng Senko DCN1806 (5 cánh, 65W)</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,7 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-07"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(7)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">540.000 đ</span><span
+                                                                class="product-price-old">650.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                            </div>
+                                        </div>
+                                        <div class="new-product">
+                                            <div class="new-product">
+                                                <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="78773" data-soldcount="166"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <div class="tragop-ox">Trả góp</div>
+                                                        <div class="prod-hl-discount"><span>-13%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                                title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                name="p78773">
+                                                                <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                    srcset="
+                                                                        https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                        https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                        https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                    " width="200" height="200"
+                                                                    class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                                <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="countdown-product end-fs">
+                                                            <div class="cdown-pro-left">
+                                                                <div class="fs-price">
+                                                                    <span class="fs-price-main">4.090.000đ</span>
+                                                                    <div class="sale-fs"><span
+                                                                            class="percent-fs">-13%</span><span
+                                                                            class="old-price-fs">4.690.000đ</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cdown-pro-right">
+                                                                <div class="flashsale-box">
+                                                                    <div class="time-box-left"><span
+                                                                            class="timeleft">Kết thúc sau</span></div>
+                                                                    <div class="time-flash running" data-bqty="29"
+                                                                        data-rqty="29" data-uid="78773"
+                                                                        data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                        data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                        data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                        data-flashprice="4090000">
+                                                                        <div class="time-box-first"><span
+                                                                                class="ngay days">2</span> ngày</div>
+                                                                    </div>
+                                                                    <div class="time-box-left">
+                                                                        <span class="seconds">Còn <span
+                                                                                class="among-buy">29</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,6 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-06"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(17)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">4.090.000 đ</span><span
+                                                                class="product-price-old">4.690.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="78773" data-soldcount="166"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <div class="tragop-ox">Trả góp</div>
+                                                        <div class="prod-hl-discount"><span>-13%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                                title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                name="p78773">
+                                                                <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                    srcset="
+                                                                        https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                        https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                        https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                    " width="200" height="200"
+                                                                    class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                                <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="countdown-product end-fs">
+                                                            <div class="cdown-pro-left">
+                                                                <div class="fs-price">
+                                                                    <span class="fs-price-main">4.090.000đ</span>
+                                                                    <div class="sale-fs"><span
+                                                                            class="percent-fs">-13%</span><span
+                                                                            class="old-price-fs">4.690.000đ</span></div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="cdown-pro-right">
+                                                                <div class="flashsale-box">
+                                                                    <div class="time-box-left"><span
+                                                                            class="timeleft">Kết thúc sau</span></div>
+                                                                    <div class="time-flash running" data-bqty="29"
+                                                                        data-rqty="29" data-uid="78773"
+                                                                        data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                        data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                        data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                        data-flashprice="4090000">
+                                                                        <div class="time-box-first"><span
+                                                                                class="ngay days">2</span> ngày</div>
+                                                                    </div>
+                                                                    <div class="time-box-left">
+                                                                        <span class="seconds">Còn <span
+                                                                                class="among-buy">29</span></span>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,6 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-06"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(17)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">4.090.000 đ</span><span
+                                                                class="product-price-old">4.690.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-highlight-item prod-item lazy-prod-item _list_ico_9370"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="60205" data-soldcount="869"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <span class="fast-view type-promo prod-hl-gift active"><i
+                                                                class="icon-gift"></i></span>
+                                                        <div class="prod-hl-discount"><span>-16%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/cay-nuoc-nong-lanh-fujie-wd1105e-p60205"
+                                                                title="Chi tiết Cây nước nóng lạnh FujiE WD1105E"
+                                                                name="p60205">
+                                                                <img alt="Cây nước nóng lạnh FujiE WD1105E"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg"
+                                                                    srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2022/12/09/cay-nuoc-fujie-wd1105e.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Cây nước nóng lạnh FujiE WD1105E"
+                                                                href="/cay-nuoc-nong-lanh-fujie-wd1105e-p60205">
+                                                                <h3>Cây nước nóng lạnh FujiE WD1105E</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,3 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-03"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(12)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">1.350.000 đ</span><span
+                                                                class="product-price-old">1.600.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                                <li class="product-highlight-item prod-item lazy-prod-item"
+                                                    data-view="grid" data-chuyenmuc="0" data-type="category"
+                                                    data-button="0" data-pid="60083" data-soldcount="264"
+                                                    data-hidesoldcount="1">
+                                                    <div class="lazy-holder">
+                                                        <div class="prod-hl-discount"><span>-17%</span></div>
+                                                        <div class="prod-hl-thumb">
+                                                            <a href="/quat-dung-senko-dcn1806-5-canh-65w-p60083"
+                                                                title="Chi tiết Quạt đứng Senko DCN1806 (5 cánh, 65W)"
+                                                                name="p60083">
+                                                                <img alt="Quạt đứng Senko DCN1806 (5 cánh, 65W)"
+                                                                    src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg"
+                                                                    srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2020/05/15/quat-dung-senko-sai-canh-dcn1806-5-canh-65w-nho.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                            </a>
+                                                        </div>
+                                                        <div class="prod-hl-name">
+                                                            <a title="Chi tiết Quạt đứng Senko DCN1806 (5 cánh, 65W)"
+                                                                href="/quat-dung-senko-dcn1806-5-canh-65w-p60083">
+                                                                <h3>Quạt đứng Senko DCN1806 (5 cánh, 65W)</h3>
+                                                            </a>
+                                                        </div>
+                                                        <div class="product-rate">
+                                                            <span class="rating-box" title="4,7 sao">
+                                                                <span class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated"></span> <span
+                                                                    class="fa fa-star rated-07"></span>
+                                                            </span>
+                                                            <span class="amount-rate">(7)</span>
+                                                        </div>
+                                                        <div class="product-price list-product-price"><span
+                                                                class="product-price-meta">540.000 đ</span><span
+                                                                class="product-price-old">650.000 đ</span></div>
+                                                    </div>
+                                                </li>
+                                            </div>
+                                        </div>
+
+                                        <div class="new-product">
+                                            <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                data-view="grid" data-chuyenmuc="0" data-type="category" data-button="0"
+                                                data-pid="78773" data-soldcount="166" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="tragop-ox">Trả góp</div>
+                                                    <div class="prod-hl-discount"><span>-13%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                            title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            name="p78773">
+                                                            <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                srcset="
+                                                                    https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                " width="200" height="200"
+                                                                class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                            <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="countdown-product end-fs">
+                                                        <div class="cdown-pro-left">
+                                                            <div class="fs-price">
+                                                                <span class="fs-price-main">4.090.000đ</span>
+                                                                <div class="sale-fs"><span
+                                                                        class="percent-fs">-13%</span><span
+                                                                        class="old-price-fs">4.690.000đ</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cdown-pro-right">
+                                                            <div class="flashsale-box">
+                                                                <div class="time-box-left"><span class="timeleft">Kết
+                                                                        thúc sau</span></div>
+                                                                <div class="time-flash running" data-bqty="29"
+                                                                    data-rqty="29" data-uid="78773"
+                                                                    data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                    data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                    data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                    data-flashprice="4090000">
+                                                                    <div class="time-box-first"><span
+                                                                            class="ngay days">2</span> ngày</div>
+                                                                </div>
+                                                                <div class="time-box-left">
+                                                                    <span class="seconds">Còn <span
+                                                                            class="among-buy">29</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="4,6 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated-06"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(17)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">4.090.000 đ</span><span
+                                                            class="product-price-old">4.690.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                            <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                data-view="grid" data-chuyenmuc="0" data-type="category" data-button="0"
+                                                data-pid="78773" data-soldcount="166" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="tragop-ox">Trả góp</div>
+                                                    <div class="prod-hl-discount"><span>-13%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                            title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            name="p78773">
+                                                            <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                srcset="
+                                                                    https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                " width="200" height="200"
+                                                                class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                            <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="countdown-product end-fs">
+                                                        <div class="cdown-pro-left">
+                                                            <div class="fs-price">
+                                                                <span class="fs-price-main">4.090.000đ</span>
+                                                                <div class="sale-fs"><span
+                                                                        class="percent-fs">-13%</span><span
+                                                                        class="old-price-fs">4.690.000đ</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cdown-pro-right">
+                                                            <div class="flashsale-box">
+                                                                <div class="time-box-left"><span class="timeleft">Kết
+                                                                        thúc sau</span></div>
+                                                                <div class="time-flash running" data-bqty="29"
+                                                                    data-rqty="29" data-uid="78773"
+                                                                    data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                    data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                    data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                    data-flashprice="4090000">
+                                                                    <div class="time-box-first"><span
+                                                                            class="ngay days">2</span> ngày</div>
+                                                                </div>
+                                                                <div class="time-box-left">
+                                                                    <span class="seconds">Còn <span
+                                                                            class="among-buy">29</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="4,6 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated-06"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(17)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">4.090.000 đ</span><span
+                                                            class="product-price-old">4.690.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                            <li class="product-highlight-item prod-item lazy-prod-item" data-view="grid"
+                                                data-chuyenmuc="0" data-type="category" data-button="0" data-pid="50746"
+                                                data-soldcount="299" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="tragop-ox">Trả góp</div>
+                                                    <div class="prod-hl-discount"><span>-14%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-p50746"
+                                                            title="Chi tiết Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh"
+                                                            name="p50746">
+                                                            <img alt="Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg"
+                                                                srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh"
+                                                            href="/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-p50746">
+                                                            <h3>Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh
+                                                            </h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="5,0 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(5)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">3.190.000 đ</span><span
+                                                            class="product-price-old">3.700.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                            <li class="product-highlight-item prod-item lazy-prod-item" data-view="grid"
+                                                data-chuyenmuc="0" data-type="category" data-button="0" data-pid="85781"
+                                                data-soldcount="93" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="prod-hl-discount"><span>-33%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/hop-com-ham-nong-life360-el-als263-p85781"
+                                                            title="Chi tiết Hộp cơm hâm nóng Life360 EL-ALS263"
+                                                            name="p85781">
+                                                            <img alt="Hộp cơm hâm nóng Life360 EL-ALS263"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg"
+                                                                srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Hộp cơm hâm nóng Life360 EL-ALS263"
+                                                            href="/hop-com-ham-nong-life360-el-als263-p85781">
+                                                            <h3>Hộp cơm hâm nóng Life360 EL-ALS263</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="4,8 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated-08"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(6)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">515.000 đ</span><span
+                                                            class="product-price-old">773.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                        </div>
+                                        <div class="new-product">
+                                            <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                data-view="grid" data-chuyenmuc="0" data-type="category" data-button="0"
+                                                data-pid="78773" data-soldcount="166" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="tragop-ox">Trả góp</div>
+                                                    <div class="prod-hl-discount"><span>-13%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                            title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            name="p78773">
+                                                            <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                srcset="
+                                                                    https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                " width="200" height="200"
+                                                                class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                            <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="countdown-product end-fs">
+                                                        <div class="cdown-pro-left">
+                                                            <div class="fs-price">
+                                                                <span class="fs-price-main">4.090.000đ</span>
+                                                                <div class="sale-fs"><span
+                                                                        class="percent-fs">-13%</span><span
+                                                                        class="old-price-fs">4.690.000đ</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cdown-pro-right">
+                                                            <div class="flashsale-box">
+                                                                <div class="time-box-left"><span class="timeleft">Kết
+                                                                        thúc sau</span></div>
+                                                                <div class="time-flash running" data-bqty="29"
+                                                                    data-rqty="29" data-uid="78773"
+                                                                    data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                    data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                    data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                    data-flashprice="4090000">
+                                                                    <div class="time-box-first"><span
+                                                                            class="ngay days">2</span> ngày</div>
+                                                                </div>
+                                                                <div class="time-box-left">
+                                                                    <span class="seconds">Còn <span
+                                                                            class="among-buy">29</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="4,6 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated-06"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(17)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">4.090.000 đ</span><span
+                                                            class="product-price-old">4.690.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                            <li class="product-highlight-item prod-item lazy-prod-item _list_ico_7298 _list_ico_9331"
+                                                data-view="grid" data-chuyenmuc="0" data-type="category" data-button="0"
+                                                data-pid="78773" data-soldcount="166" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="tragop-ox">Trả góp</div>
+                                                    <div class="prod-hl-discount"><span>-13%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773"
+                                                            title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            name="p78773">
+                                                            <img alt="Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png"
+                                                                srcset="
+                                                                    https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 1.5x,
+                                                                    https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2021/07/16/may-giat-long-dung-8-5-kg-casper-wt-85n68bga.png 2x
+                                                                " width="200" height="200"
+                                                                class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA"
+                                                            href="/may-giat-long-dung-8-5-kg-casper-wt-85n68bga-p78773">
+                                                            <h3>Máy giặt lồng đứng 8.5 kg Casper WT-85N68BGA</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="countdown-product end-fs">
+                                                        <div class="cdown-pro-left">
+                                                            <div class="fs-price">
+                                                                <span class="fs-price-main">4.090.000đ</span>
+                                                                <div class="sale-fs"><span
+                                                                        class="percent-fs">-13%</span><span
+                                                                        class="old-price-fs">4.690.000đ</span></div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="cdown-pro-right">
+                                                            <div class="flashsale-box">
+                                                                <div class="time-box-left"><span class="timeleft">Kết
+                                                                        thúc sau</span></div>
+                                                                <div class="time-flash running" data-bqty="29"
+                                                                    data-rqty="29" data-uid="78773"
+                                                                    data-starttime="2023-02-14T09:00:00.0000000Z"
+                                                                    data-checktime="2023-03-29T07:30:41.3693470Z"
+                                                                    data-endtime="2023-03-31T16:59:00.0000000Z"
+                                                                    data-flashprice="4090000">
+                                                                    <div class="time-box-first"><span
+                                                                            class="ngay days">2</span> ngày</div>
+                                                                </div>
+                                                                <div class="time-box-left">
+                                                                    <span class="seconds">Còn <span
+                                                                            class="among-buy">29</span></span>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="4,6 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated-06"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(17)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">4.090.000 đ</span><span
+                                                            class="product-price-old">4.690.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                            <li class="product-highlight-item prod-item lazy-prod-item" data-view="grid"
+                                                data-chuyenmuc="0" data-type="category" data-button="0" data-pid="50746"
+                                                data-soldcount="299" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="tragop-ox">Trả góp</div>
+                                                    <div class="prod-hl-discount"><span>-14%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-p50746"
+                                                            title="Chi tiết Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh"
+                                                            name="p50746">
+                                                            <img alt="Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg"
+                                                                srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2019/05/10/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-1.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh"
+                                                            href="/quat-tran-kieu-co-canh-go-kim-thuan-phong-kc168-4-canh-p50746">
+                                                            <h3>Quạt trần kiểu cổ cánh gỗ Kim Thuận Phong KC168 - 4 cánh
+                                                            </h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="5,0 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(5)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">3.190.000 đ</span><span
+                                                            class="product-price-old">3.700.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                            <li class="product-highlight-item prod-item lazy-prod-item" data-view="grid"
+                                                data-chuyenmuc="0" data-type="category" data-button="0" data-pid="85781"
+                                                data-soldcount="93" data-hidesoldcount="1">
+                                                <div class="lazy-holder">
+                                                    <div class="prod-hl-discount"><span>-33%</span></div>
+                                                    <div class="prod-hl-thumb">
+                                                        <a href="/hop-com-ham-nong-life360-el-als263-p85781"
+                                                            title="Chi tiết Hộp cơm hâm nóng Life360 EL-ALS263"
+                                                            name="p85781">
+                                                            <img alt="Hộp cơm hâm nóng Life360 EL-ALS263"
+                                                                src="https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg"
+                                                                srcset="
+                                                                https://s.meta.com.vn/img/thumb.ashx/200x200x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg,
+                                                                https://s.meta.com.vn/img/thumb.ashx/300x300x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg 1.5x,
+                                                                https://s.meta.com.vn/img/thumb.ashx/400x400x95/Data/image/2022/06/20/hop-ham-nong-el-als263-2.jpg 2x
+                                                            " width="200" height="200" class="thumb-list is-thumb" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="prod-hl-name">
+                                                        <a title="Chi tiết Hộp cơm hâm nóng Life360 EL-ALS263"
+                                                            href="/hop-com-ham-nong-life360-el-als263-p85781">
+                                                            <h3>Hộp cơm hâm nóng Life360 EL-ALS263</h3>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product-rate">
+                                                        <span class="rating-box" title="4,8 sao">
+                                                            <span class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated"></span> <span
+                                                                class="fa fa-star rated-08"></span>
+                                                        </span>
+                                                        <span class="amount-rate">(6)</span>
+                                                    </div>
+                                                    <div class="product-price list-product-price"><span
+                                                            class="product-price-meta">515.000 đ</span><span
+                                                            class="product-price-old">773.000 đ</span></div>
+                                                </div>
+                                            </li>
+                                        </div>
+                                    </ul>
+                                    <div class="trend-product view-more-products">
+                                        <a data-pidx="1" data-pz="12" data-catid="382" data-ref="pro-cate-trend"
+                                            href="#">Xem thêm sản phẩm <i class="fa fa-chevron-down"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="grid">
+            <div class="grid__row">
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Chăm sóc khách hàng</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trung tâm trợ giúp</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">F8-shop Mall</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Hướng dẫn mua hàng</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Giới thiệu</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Giới thiệu</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Tuyển dụng</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Điều Khoản</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Danh mục</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trang điểm mặt</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">Trang điểm môi</a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">trang điểm mắt</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Theo dõi chúng tôi trên</h3>
+                    <ul class="footer-list">
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-facebook"></i>
+                                Facebook
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-instagram"></i>
+                                instagram
+                            </a>
+                        </li>
+                        <li class="footer-item">
+                            <a href="" class="footer-item__link">
+                                <i class="footer-item__icon fa-brands fa-linkedin-in"></i>
+                                Linkedin
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="grid__column-2-4">
+                    <h3 class="footer__heading">Vào cửa hàng trên ứng dụng</h3>
+                    <div class="footer__download">
+                        <img src="/assets/img/qr_code.png" alt="Download QR" class="footer__download-qr">
+                        <div class="footer__download-apps">
+                            <a href="" class="footer__download-app-link">
+                                <img src="assets/img/googleplay.png" alt="Google play" class="footer__download-app-img">
+                            </a>
+                            <a href="" class="footer__download-app-link">
+                                <img src="assets/img/app_store.png" alt="App store" class="footer__download-app-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="grid__row">
+                <p class="footer__text">© 2022 - Bản quyền thuộc về Công ty MyCV</p>
+            </div>
+        </div>
+    </footer>
+    <script src="/js/jquery-1.11.1.min.js"></script>
+    <script src="/libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/libs/OwlCarousel2-2.3.4/dist/owl.carousel.js"></script>
+    <script src="/libs/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="/js/script.js"></script>
+    <script src="/js/slick.min.js"></script>
+</body>
+
+</html>

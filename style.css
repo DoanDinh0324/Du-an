@@ -1,15 +1,4 @@
-@font-face {
-    font-family:Roboto;
-    src:url('../fonts/Roboto-Regular.ttf') format('truetype'),
-    font-weight:normal;
-    font-style:normal;
-   }
-   @font-face {
-    font-family:RobotoBold;
-    src:url('../fonts/Roboto-Bold.ttf') format('truetype'),
-    font-weight:normal;
-    font-style:normal;
-   }
+
 body {
     font-size: 14px;
     margin: 0;
@@ -148,7 +137,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
     cursor: pointer;
 }
 .paddingright0 {
-    padding-right: 0;
+    padding-right: 20px;
     margin-left: -15px;
 }
 .paddingleft0 {
@@ -188,11 +177,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4f4f4', end
     
 }
 .slick-arrow {
-    background: ;
+
 }
 .box-menu-left ul {
     border: 1px solid #dfdfdf;
-    background: #f3f3f3;3
+    background: #f3f3f3;
 }
 .box-menu-left ul li {
     display: block;
